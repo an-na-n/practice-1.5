@@ -13,7 +13,6 @@ const swiper = new Swiper(".swiper", {
 document.addEventListener("DOMContentLoaded", function () {
   if (window.innerWidth >= 768) {
     swiper.destroy(true, true);
-    swiper = null;
   }
 });
 
@@ -60,6 +59,5 @@ window.addEventListener("resize", function () {
   }
   if (window.innerWidth >= 768) {
     swiper.destroy(true, true);
-    swiper = null;
   }
 });
