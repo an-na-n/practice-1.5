@@ -309,6 +309,10 @@ button {
 }
 
 @media (width >= 1120px) {
+  .brands__title {
+    padding-left: 32px;
+  }
+
   .brands__list {
     padding-left: 32px;
     padding-right: 32px;
